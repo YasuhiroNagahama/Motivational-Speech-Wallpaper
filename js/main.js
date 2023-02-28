@@ -40,16 +40,14 @@ class CardInfo {
 
 const cardInfoList = [
   new CardInfo(
-    "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. - Antoine de 
-Saint",
+    "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. - Antoine de Saint",
     "1B4F72",
     "https://cdn.pixabay.com/photo/2020/06/12/03/06/magnifying-glass-5288877__340.jpg",
     "上",
     "右"
   ),
   new CardInfo(
-    "The scientist discovers a new type of material or energy and the engineer discovers a new use for it. - Gordon Lindsay 
-Glegg",
+    "The scientist discovers a new type of material or energy and the engineer discovers a new use for it. - Gordon Lindsay Glegg",
     "007bff",
     "https://cdn.pixabay.com/photo/2018/02/23/04/38/laptop-3174729_1280.jpg",
     "真ん中",
@@ -67,4 +65,3 @@ Glegg",
 for (let i = 0; i < cardInfoList.length; i++) {
   cardInfoList[i].createCard();
 }
-
