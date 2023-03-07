@@ -1,4 +1,24 @@
-# Recursion-Project-1-1
-CS学習サイト、RecursionでのProject1-1
+# Name（リポジトリ/プロジェクト/OSSなどの名前）
 
-テキスト、カラーコード（16 進数、#FF0000 の FF0000 の部分）、壁紙の画像 URL、垂直方向の位置（top center bottom）、水平方向の位置（left center right）の情報をもとに、カードを作成。
+Motivational Speech Wallpaper
+
+# EXPLAIN
+
+テキスト、カラーコード、壁紙の画像 URL、垂直方向の位置（top center bottom）、水平方向の位置（left center right）を文字列としてコンストラクタに渡すと、モチベーションを高める壁紙が生成されます。
+
+# DEMO
+
+"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+
+# Features
+
+"hoge"のセールスポイントや差別化などを説明する
+
+# Note
+
+注意点などがあれば書く
+
+# Author
+
+* 作成者 YasuhiroNagahama
+* E-mail fnifhubi85h29bddi@gmail.com
