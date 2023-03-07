@@ -1,4 +1,4 @@
-const cardWrap = document.getElementById("cardWrap");
+const contentsWrap = document.getElementById("card-wrapper");
 
 class CardInfo {
   constructor(text, color, img, vertical, horizontal) {
@@ -25,16 +25,22 @@ class CardInfo {
         : "justify-content-center";
 
     contents.style.backgroundImage = `url(${this.img})`;
-    contents.classList.add("contents", "p-3", "d-flex", positionX, positionY);
+    contents.classList.add(
+      "motivation-card",
+      "p-3",
+      "d-flex",
+      positionX,
+      positionY
+    );
 
     const text = document.createElement("p");
     text.style.color = "#" + this.color;
-    text.classList.add("text", "fw-bold", "h3");
+    text.classList.add("motivation-card-text", "fw-bold", "h3");
     text.innerHTML = this.text;
 
     contents.append(text);
 
-    cardWrap.append(contents);
+    contentsWrap.append(contents);
   }
 }
 

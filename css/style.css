@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.body {
+body {
   color: #333;
   font-family: "Noto Sans JP", sans-serif;
   line-height: 1.6;
@@ -13,19 +13,18 @@
   width: 90%;
 }
 
-.contents {
+.motivation-card {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 400px;
 }
 @media screen and (min-width: 768px) {
-  .contents {
+  .motivation-card {
     height: 600px;
   }
 }
 
-.text {
+.motivation-card-text {
   width: 250px;
 }
-
