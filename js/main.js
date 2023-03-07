@@ -1,4 +1,14 @@
 const contentsWrap = document.getElementById("card-wrapper");
+const positionX = {
+  左: "justify-content-start",
+  右: "justify-content-end",
+  真ん中: "justify-content-center",
+};
+const positionY = {
+  上: "align-items-start",
+  下: "align-items-end",
+  真ん中: "align-items-center",
+};
 
 class CardInfo {
   constructor(text, color, img, vertical, horizontal) {
@@ -11,26 +21,14 @@ class CardInfo {
 
   createCard() {
     const contents = document.createElement("div");
-    const positionY =
-      this.vertical == "上"
-        ? "align-items-start"
-        : this.vertical == "下"
-        ? "align-items-end"
-        : "align-items-center";
-    const positionX =
-      this.horizontal == "左"
-        ? "justify-content-start"
-        : this.horizontal == "右"
-        ? "justify-content-end"
-        : "justify-content-center";
 
     contents.style.backgroundImage = `url(${this.img})`;
     contents.classList.add(
       "motivation-card",
       "p-3",
       "d-flex",
-      positionX,
-      positionY
+      positionX[this.horizontal],
+      positionY[this.vertical]
     );
 
     const text = document.createElement("p");
