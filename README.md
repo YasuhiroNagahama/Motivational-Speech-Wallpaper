@@ -6,10 +6,6 @@ Motivational Speech Wallpaper
 
 テキスト、カラーコード、壁紙の画像 URL、垂直方向の位置（top center bottom）、水平方向の位置（left center right）を文字列としてコンストラクタに渡すと、モチベーションを高める壁紙が生成されます。
 
-# DEMO
-
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
-
 # Features
 
 "hoge"のセールスポイントや差別化などを説明する
