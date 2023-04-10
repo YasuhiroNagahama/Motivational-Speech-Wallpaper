@@ -48,7 +48,7 @@ class Card {
   }
 }
 
-// テキスト、カラーコード、壁紙の画像URL、垂直方向の位置（top center bottom）、水平方向の位置（left center right）のインスタンスを複数作成し、配列内に保存
+// テキスト、カラーコード、壁紙の画像URL、垂直方向の位置（top center bottom）、水平方向の位置（left center right）を配列内に保存
 const cardInfoList = [
   new Card(
     "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. - Antoine de Saint",
@@ -73,7 +73,7 @@ const cardInfoList = [
   ),
 ];
 
-// cardInfoList配列内の各インスタンスに対してcreateCard()メソッドを呼び出す関数
+// cardInfoList配列内の各要素に対してcreateCard()メソッドを呼び出す関数
 function displayCardInfo() {
   for (let i = 0; i < cardInfoList.length; i++) {
     cardInfoList[i].createCard();
