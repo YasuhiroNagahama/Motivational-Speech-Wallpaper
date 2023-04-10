@@ -73,7 +73,7 @@ const cardInfoList = [
   ),
 ];
 
-// cardInfoList配列内の各要素に対してcreateCard()メソッドを呼び出す関数
+// cardInfoList配列内の各要素に対してcreateCard()メソッドを呼び出し、画面に表示する関数
 function displayCardInfo() {
   for (let i = 0; i < cardInfoList.length; i++) {
     cardInfoList[i].createCard();
