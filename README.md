@@ -3,7 +3,7 @@
 Motivational Speech Wallpaper
 
 # URL
-https://yasuhironagahama.github.io/Motivational-Speech-Wallpaper/
+https://yasuhironagahama.github.io/motivational-speech-wallpaper/
 
 # Explain
 
