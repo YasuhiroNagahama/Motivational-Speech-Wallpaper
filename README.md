@@ -1,6 +1,6 @@
 # Name
 
-Motivational Speech Wallpaper
+**Motivational Speech Wallpaper**
 
 # URL
 https://yasuhironagahama.github.io/motivational-speech-wallpaper/
